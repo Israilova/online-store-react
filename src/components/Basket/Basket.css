@@ -1,0 +1,121 @@
+.basket-component {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+}
+.basket-component table, th, td {
+    /* border: 1px solid black; */
+    padding: 2px;
+}
+.basket-component table {
+    box-shadow: 0 1px 5px #333;
+    padding: 3px;
+    border-radius: 5px;
+}
+.basket-form {
+    display: flex;
+    flex-direction: column;
+    background: silver;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #333;
+}
+.basket-form div {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    width: 260px;
+}
+.basket-form input {
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+}
+.basket-form input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.basket-form button {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #22ca46;
+    color: #ffffff;
+    transition: .5s;
+    font-size: 16px;
+    box-shadow: 0 1px 5px #333;
+}
+.basket-form button:hover {
+    background-color: #00a524;
+}
+.table-wrapper button {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    background-color: rgb(255, 67, 67);
+    color: #ffffff;
+    box-shadow: 0 1px 5px #333;
+    transition: .5s;
+}
+.table-wrapper button:hover {
+    background-color: red;
+}
+.input-quantity {
+    max-width: 30px;
+    text-align: center;
+    border: none;
+    margin-right: 8px;
+}
+.basket-component td:nth-child(2) {
+    text-align: end;
+}
+.basket-component td:nth-child(3) {
+    text-align: end;
+}
+.basket-component td:nth-child(4) {
+    text-align: center;
+}
+.basket-component td:nth-child(5) {
+    text-align: center;
+}
+.basket-component td:nth-child(6) {
+    display: flex;
+    /* padding: 5px; */
+    margin-top: 11px;
+    margin-left: -10px;
+}
+#total-td {
+    text-align: start;
+}
+.basket-delete {
+    background: url(../../img/delete.svg) no-repeat;
+    background-size: contain;
+    padding: 10px;
+    cursor: pointer;
+    /* transition: .1s; */
+}
+.basket-delete:hover {
+    padding: 12px;
+    margin: -2px -2px;
+}
+.basket-item-img {
+    height: 40px;
+    width: 40px;
+    transition: .2s;
+    cursor: pointer;
+}
+.basket-item-img:hover {
+    height: 60px;
+    width: 60px;
+    margin: -10px -15px;
+}
+#table {
+    padding: 15px;
+}
